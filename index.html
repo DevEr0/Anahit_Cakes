@@ -706,8 +706,8 @@ section{
   transform:translateY(-12px);
   box-shadow:var(--shadow-lift);
 }
-.cake-card:nth-child(2){transform:translateY(40px)}
-.cake-card:nth-child(2):hover{transform:translateY(28px)}
+.cake-card:nth-child(2){transform:translateY(0)}
+.cake-card:nth-child(2):hover{transform:translateY(-12px)}
 .cake-image{
   aspect-ratio:1/1;
   overflow:hidden;
@@ -847,10 +847,7 @@ section{
   align-items:center;
   font-family:'Pinyon Script',cursive;
   font-size:64px;
-  background:linear-gradient(135deg,var(--gold-light),var(--gold-deep));
-  -webkit-background-clip:text;
-  background-clip:text;
-  -webkit-text-fill-color:transparent;
+  color:var(--gold-light);
   width:100px;height:100px;
   position:relative;
   z-index:1;
